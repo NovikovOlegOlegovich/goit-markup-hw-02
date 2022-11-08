@@ -8,37 +8,37 @@
 /* Черный цвет logo #000000*/
 
 :root {
-    --primary-text-kolor: #757575;
-    --title-text-color: #212121;
-    --primary-background-color: #F5F5F5;
-    --secondary-background-color: #F5F4FA;
-    --hero-background-color: #2F303A;
-    --accent-color: #2196F3;
-    --white-color: #FFFFFF;
-    --black-color: #000000;
+  --primary-text-kolor: #757575;
+  --title-text-color: #212121;
+  --primary-background-color: #f5f5f5;
+  --secondary-background-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
 }
 
 body {
-    background-color: var(--primary-backgr ound-color);
-    color: var(--primary-text-kolor);
+  background-color: var(--primary-backgr ound-color);
+  color: var(--primary-text-kolor);
 
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.03em;
-    line-height: 1.71;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
- 
+
 /* Утилитарные классы */
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-   text-decoration: none; 
+  text-decoration: none;
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* ФУТЕР */
@@ -46,48 +46,51 @@ body {
 /* Логотипы футер/хедер */
 
 .logo {
-    color: var(--black-color);
+  color: var(--black-color);
 
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer .logo {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
-.header .logo-web, .footer .logo-web {
-    color: var(--accent-color);
+.header .logo-web,
+.footer .logo-web {
+  color: var(--accent-color);
 }
 
 /* Навигация по сайту */
 
 .site-nav .nav-link {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-weight: 500;
-    line-height: 1.14; 
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .nav-link:hover, .site-nav .nav-link:focus {
-    color:  var(--accent-color);
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--accent-color);
 }
 
 /* Контакты */
 
 .contacts {
-    color: inherit;
+  color: inherit;
 
-    font-weight: 500;
-    line-height: 1.14; 
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.contacts:hover, .contacts:focus {
-    color: var(--accent-color);
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
 }
 
 /* МЕЙН-КОНТЕНТ */
@@ -95,53 +98,54 @@ body {
 /* Герой */
 
 .hero {
-    background-color: var(--hero-background-color);
+  background-color: var(--hero-background-color);
 }
 
 .hero-title {
-    color: var(--white-color);
+  color: var(--white-color);
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center; 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .button {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    text-align: center;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 
-    cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  cursor: pointer;
 }
 
 /* ОСНОВНЫЕ СЕКЦИИ */
 
-.work-target-title, .team-title {
-    color: var(--title-text-color);
+.work-target-title,
+.team-title {
+  color: var(--title-text-color);
 
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Секция-"преймущества" */
 
 .feature-title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Секция-"Чем мы занимаемся" */
@@ -149,64 +153,69 @@ body {
 /* Секция-"Наша команда" */
 
 .name {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .profession {
-    font-size: 16px;
-    line-height: 1.18;
+  font-size: 16px;
+  line-height: 1.18;
 }
-
 
 /* ФУТЕР */
 
 .footer {
-    background-color: var(--hero-background-color);
+  background-color: var(--hero-background-color);
 }
 
 .location {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
-.mail, .tel {
-    color: rgba(255, 255, 255, 0.6);
+.mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.location:hover, .mail:hover, .tel:hover,
- .location:focus, .mail:focus, .tel:focus {
-    color:  var(--accent-color);
+.location:hover,
+.mail:hover,
+.tel:hover,
+.location:focus,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
 }
 
 /* Сторінка portfolio.html */
 
 .nav-button {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
-.nav-button:hover, .nav-button:focus {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+.nav-button:hover,
+.nav-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-title {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-description {
-    font-size: 16px;
-    line-height: 1.87;
+  font-size: 16px;
+  line-height: 1.87;
 }
