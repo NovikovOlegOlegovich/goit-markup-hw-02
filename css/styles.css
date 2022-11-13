@@ -23,6 +23,7 @@ body {
   color: var(--primary-text-kolor);
 
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
@@ -65,7 +66,11 @@ body {
 
 /* Навигация по сайту */
 
-.site-nav .nav-link {
+.header {
+    background-color: var(--white-color);
+}
+
+.nav-link {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -73,9 +78,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
+}
+
+.site-nav .active {
+    color: var(--accent-color)
 }
 
 /* Контакты */
@@ -116,8 +125,9 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
 
-  font-weight: 700;
+  font-family: inherit;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
@@ -139,6 +149,10 @@ body {
 
 /* Секция-"преймущества" */
 
+.feature {
+    background-color: var(--primary-background-color);
+}
+
 .feature-title {
   color: var(--title-text-color);
 
@@ -150,7 +164,15 @@ body {
 
 /* Секция-"Чем мы занимаемся" */
 
+.work-target {
+    background-color: var(--primary-background-color);
+}
+
 /* Секция-"Наша команда" */
+
+.team {
+    background-color: var(--secondary-background-color);
+}
 
 .name {
   color: var(--title-text-color);
@@ -192,9 +214,14 @@ body {
 
 /* Сторінка portfolio.html */
 
+.portfolio {
+    background-color: var(--primary-background-color);
+}
+
 .nav-button {
   color: var(--title-text-color);
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
